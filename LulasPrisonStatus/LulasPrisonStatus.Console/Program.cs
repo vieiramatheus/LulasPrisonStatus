@@ -14,7 +14,7 @@ namespace LulasPrisonStatus.ConsoleApp
             var tokenF = "█";
 
             var lula = Domain.Lula.Condenado();
-
+            
             string porcentagemS = "";
             for (int i = 0; i < 100; i++)
             {
@@ -25,7 +25,7 @@ namespace LulasPrisonStatus.ConsoleApp
             }
 
             Console.WriteLine("Lula foi preso dia: {0:dd/MM/yyyy}", lula.DataPrisao);
-            Console.WriteLine("Lula será solto dia: {0:dd/MM/yyy}", lula.DataSaida);
+            Console.WriteLine("Lula será solto dia: {0:dd/MM/yyyy}", lula.DataSaida);
 
             Console.WriteLine("Isso corresponde a um total de {0:N0} dias preso", lula.DiasTotais);
             Console.WriteLine("Lula cumpriu o total de {0:N0} dias da sua pena", lula.DiasCumpridos);
