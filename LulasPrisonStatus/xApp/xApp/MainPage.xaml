@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:xApp"
+             x:Class="xApp.MainPage">
+
+    <StackLayout Padding="30" Spacing="15">
+        
+        <Image Source="LulaLivre.png" HeightRequest="50" WidthRequest="50"/>
+
+        <Button Text="Lula Livre!" x:Name="BtnLulaLivre"></Button>
+        
+        <Label Text="?!" x:Name="LblStatus"/>
+        <ProgressBar x:Name="ProgressoPena"></ProgressBar>
+    </StackLayout>
+
+</ContentPage>
